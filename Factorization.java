@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class  Factorization {
 
     public static void main(String[] args) {
-        int i, num;
+        int i;
         Scanner sc = new Scanner(System.in);
 
         do {
             System.out.print("Enter Number or Enter 0 for exit : ");
-            num = sc.nextInt();
+            int num = sc.nextInt();
 
             for (i = 2; i <= num; i++) {
 
@@ -24,7 +24,9 @@ public class  Factorization {
                 }//while
 
             }//for
+
             System.out.println("");
+
         } while (num != 0);
 
     }
