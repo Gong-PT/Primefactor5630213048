@@ -17,7 +17,7 @@ public class  Factorization {
                 while (num % i == 0) {
                     num /= i;
                     System.out.print(i + " ");
-                    if (i < num) {
+                    if (i <= num) {
                         System.out.print("x ");
                     }//if
 
@@ -31,3 +31,4 @@ public class  Factorization {
 
     }
 }
+
